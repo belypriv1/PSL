@@ -1,6 +1,6 @@
 {
-  "name": "PSL",
-  "description": "PSL",
+  "name": "Padstation League (PSL) - Suez Padbol Player Rankings",
+  "description": "Official Padbol player and team ranking platform for Suez, Egypt. ONE CITY. ONE LEAGUE. EVERY PLAYER.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

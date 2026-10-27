@@ -1,1 +1,64 @@
 @import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #07060e;
+    color: #f3f4f6;
+  }
+  [dir="rtl"] body {
+    font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Teko', 'Cairo', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: 0.04em;
+  }
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] .font-display {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: normal;
+    font-weight: 800;
+  }
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Neon Sports Accents: Purple, Light Blue, Light Red */
+.psl-card-gradient {
+  background: linear-gradient(135deg, rgba(20, 16, 36, 0.9) 0%, rgba(10, 8, 20, 0.95) 100%);
+  border: 1px solid rgba(168, 85, 247, 0.18);
+}
+.psl-card-gradient:hover {
+  border-color: rgba(56, 189, 248, 0.45);
+}
+.psl-purple-glow {
+  box-shadow: 0 0 25px -4px rgba(168, 85, 247, 0.35);
+}
+.psl-blue-glow {
+  box-shadow: 0 0 25px -4px rgba(56, 189, 248, 0.35);
+}
+.psl-red-glow {
+  box-shadow: 0 0 25px -4px rgba(251, 113, 133, 0.35);
+}
+.psl-multi-glow {
+  box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.3), 0 0 20px -3px rgba(56, 189, 248, 0.25);
+}
+.psl-gradient-text {
+  background: linear-gradient(135deg, #c084fc 0%, #38bdf8 50%, #fb7185 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.psl-purple-red-btn {
+  background: linear-gradient(135deg, #9333ea 0%, #f43f5e 100%);
+}
+.psl-purple-red-btn:hover {
+  background: linear-gradient(135deg, #a855f7 0%, #fb7185 100%);
+}
+.psl-blue-btn {
+  background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+}
+.psl-grid-bg {
+  background-image: radial-gradient(rgba(168, 85, 247, 0.16) 1px, transparent 0);
+  background-size: 26px 26px;
+}
